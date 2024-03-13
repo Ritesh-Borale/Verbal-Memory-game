@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #272343;
+    display: flex;
+    flex-direction: column;
+}
+
+.maincontainer {
+    width: 80%;
+    height: 70%;
+    color: rgb(0, 0, 0);
+    background: rgb(121, 175, 219); 
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.button-container{
+    width: 50%;
+    height: 20%;
+    border:2px solid black ;
+}
+.numbertext {
+    width: 50%;
+    height: 20%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+#lives {
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px;
+}
+
+.button-container {
+    display: flex;
+}
+
+button {
+    height: 10%;
+    width: 20%;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(240, 240, 45);
+    font-size: 20px;
+    margin: 20px 20px 10px;
+}
+/* button:hover{
+    background-color: rgb(240, 240, 85);
+} */
+.DisplayWordBlock{
+    height: 12%;
+    width: 40%;
+    border: 2px solid black;
+    border-radius: 20px;
+    text-align: center;
+}
+#startbutton:hover {
+    opacity: 0.7;
+}
+
+img {
+    height: 200px;
+    width: 200px; 
+    margin-bottom: 50px;
+}
+
+img:hover {
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+button {
+    padding: 1em 1em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  button:hover {
+    background-color: #23c483;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+  
+  button:active {
+    transform: translateY(-1px);
+  }
